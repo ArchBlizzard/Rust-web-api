@@ -13,7 +13,7 @@ A simple blog-style REST API built with Iron web framework in Rust. The applicat
 - GET /post/:id - Get a specific post by UUID
 
 ## Project Structure
-```rust
+```txt
 src/
 ├── database.rs    - In-memory database implementation
 ├── handlers.rs    - HTTP request handlers
@@ -32,15 +32,15 @@ src/
 - Clone the repository
 
 Run the server:
-```rust
+```cargo
 cargo run
 ```
 The server will start at 
-```rust
+```txt
 localhost:8000
 ```
 ### Example Post Format
-```rust
+```json
 Copy{
   "title": "Example Post",
   "body": "Post content goes here",
