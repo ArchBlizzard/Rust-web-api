@@ -41,7 +41,7 @@ localhost:8000
 ```
 ### Example Post Format
 ```json
-Copy{
+{
   "title": "Example Post",
   "body": "Post content goes here",
   "author": "Author Name",
